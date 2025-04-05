@@ -2,6 +2,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../../components/home/HomeTs';
 import VuexTs from '../../components/vuexTs/VuexTs';
+import VuesTs from '../../components/vuesan/VuesTs';
 
 const routes = [
     {
@@ -13,6 +14,11 @@ const routes = [
         path: '/vuex',
         name: 'vuex',
         component: VuexTs,
+    },
+    {
+        path: '/vuests',
+        name: 'vuests',
+        component: VuesTs,
     },
 ];
 
